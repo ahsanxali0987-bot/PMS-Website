@@ -12,8 +12,10 @@ const Navbar = () => {
           <p className="text-[15px] font-[500]">Service</p>
           <p className="text-[15px] font-[500]">Plans</p>
         </div>
-        <div className="w-[100px] h-[40px] bg-[#FFFFFF] text-[#1C1B1F] text-[12px] font-[700] flex items-center justify-center rounded-xl hover:shadow-lg cursor-pointer">
-          <p className="">Contact Us</p>
+        <div className="w-[100px] h-[40px] bg-[#FFFFFF] flex items-center justify-center rounded-xl hover:shadow-lg">
+          <p className="text-[#1C1B1F] text-[12px] font-[700] cursor-pointer">
+            Contact Us
+          </p>
         </div>
       </div>
     </div>
