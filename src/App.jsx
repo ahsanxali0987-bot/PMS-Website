@@ -2,7 +2,6 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Homepage from "./Pages/Homepage";
 
-
 const App = () => {
   return (
     <>
@@ -16,4 +15,3 @@ const App = () => {
 };
 
 export default App;
- 
