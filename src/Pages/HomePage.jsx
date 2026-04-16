@@ -1,12 +1,10 @@
-import React from "react";
-import Navbar from "../Components/Navbar";
+import React from 'react'
+import Navbar from '../Components/Navbar'
 
-const HomePage = () => {
+const Homepage = () => {
   return (
-    <div className="bg-white">
-      <Navbar />
-    </div>
-  );
-};
+    <div><Navbar /></div>
+  )
+}
 
-export default HomePage;
+export default Homepage
