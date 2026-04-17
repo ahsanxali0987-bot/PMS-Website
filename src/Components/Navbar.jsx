@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <div className="fixed left-0 right-0 top-5 z-50">
+    <div className="sticky left-0 right-0 top-5 z-50">
       <div className="w-[700px] h-[80px] bg-[#F5F5F580] flex items-center justify-between px-14 rounded-full m-auto">
         <div className="">
           <img src="Logo.png" alt="Logo" className="w-14 h-14" />
